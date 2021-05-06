@@ -1,0 +1,12 @@
+name = "chrono-worker"
+type = 'javascript'
+account_id = '<your account_id>'
+route = '<your hostname>/*'
+zone_id = '<your zone_id>'
+usage_model = 'bundled'
+
+[build]
+command = "make"
+
+[build.upload]
+format = "service-worker"
